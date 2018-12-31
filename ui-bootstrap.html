@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="assets/images/favicon_1.ico">
+
+        <title>قالب اچ تی ام ال مدیریتی نادیا</title>
+
+        <!--Morris Chart CSS -->
+		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
+
+        <link href="assets/css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+
+        <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="assets/js/modernizr.min.js"></script>
+
+
+    </head>
+
+
+    <body class="fixed-left">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Top Bar Start -->
+            <div class="topbar">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <div class="text-center">
+                        <a href="index.html" class="logo"><i class="icon-magnet icon-c-logo"></i><span>نا</i>دیا</span></a>
+                        <!-- Image Logo here -->
+                        <!--<a href="index.html" class="logo">-->
+                            <!--<i class="icon-c-logo"> <img src="assets/images/logo_sm.png" height="42"/> </i>-->
+                            <!--<span><img src="assets/images/logo_light.png" height="20"/></span>-->
+                        <!--</a>-->
+                    </div>
+                </div>
+
+                <!-- Button mobile view to collapse sidebar menu -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="">
+                            <div class="pull-left">
+                                <button class="button-menu-mobile open-left waves-effect waves-light">
+                                    <i class="md md-menu"></i>
+                                </button>
+                                <span class="clearfix"></span>
+                            </div>
+
+                            <ul class="nav navbar-nav hidden-xs">
+                                <li><a href="#" class="waves-effect waves-light">فایل ها</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown"
+                                       role="button" aria-haspopup="true" aria-expanded="false">منوکشویی <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">ایتم یک</a></li>
+                                        <li><a href="#">ایتم دو</a></li>
+                                        <li><a href="#">ایتم سه</a></li>
+                                        <li><a href="#">ایتم چهار</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <form role="search" class="navbar-left app-search pull-left hidden-xs">
+			                     <input type="text" placeholder="جستجو..." class="form-control">
+			                     <a href=""><i class="fa fa-search"></i></a>
+			                </form>
+
+
+                            <ul class="nav navbar-nav navbar-right pull-right">
+                                <li class="dropdown top-menu-item-xs">
+                                    <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
+                                        <i class="icon-bell"></i> <span class="badge badge-xs badge-danger">3</span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-lg">
+                                        <li class="notifi-title"><span class="label label-default pull-right">3 جدید</span>اطلاعیه ها</li>
+                                        <li class="list-group slimscroll-noti notification-list">
+                                           <!-- list item-->
+                                           <a href="javascript:void(0);" class="list-group-item">
+                                              <div class="media">
+                                                 <div class="pull-left p-r-10">
+                                                    <em class="fa fa-diamond noti-primary"></em>
+                                                 </div>
+                                                 <div class="media-body">
+                                                    <h5 class="media-heading">عنوان اطلاعیه</h5>
+                                                    <p class="m-0">
+                                                        <small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...</small>
+                                                    </p>
+                                                 </div>
+                                              </div>
+                                           </a>
+
+                                           <!-- list item-->
+                                           <a href="javascript:void(0);" class="list-group-item">
+                                              <div class="media">
+                                                 <div class="pull-left p-r-10">
+                                                    <em class="fa fa-cog noti-warning"></em>
+                                                 </div>
+                                                 <div class="media-body">
+                                                    <h5 class="media-heading">عنوان اطلاعیه</h5>
+                                                    <p class="m-0">
+                                                        <small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...</small>
+                                                    </p>
+                                                 </div>
+                                              </div>
+                                           </a>
+
+                                           <!-- list item-->
+                                           <a href="javascript:void(0);" class="list-group-item">
+                                              <div class="media">
+                                                 <div class="pull-left p-r-10">
+                                                    <em class="fa fa-bell-o noti-custom"></em>
+                                                 </div>
+                                                 <div class="media-body">
+                                                    <h5 class="media-heading">عوان اطلاعیه</h5>
+                                                    <p class="m-0">
+                                                        <small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...</small>
+                                                    </p>
+                                                 </div>
+                                              </div>
+                                           </a>
+
+                                           <!-- list item-->
+                                           <a href="javascript:void(0);" class="list-group-item">
+                                              <div class="media">
+                                                 <div class="pull-left p-r-10">
+                                                    <em class="fa fa-user-plus noti-pink"></em>
+                                                 </div>
+                                                 <div class="media-body">
+                                                    <h5 class="media-heading">عنوان اطلاعیه</h5>
+                                                    <p class="m-0">
+                                                        <small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...</small>
+                                                    </p>
+                                                 </div>
+                                              </div>
+                                           </a>
+
+                                            <!-- list item-->
+                                           <a href="javascript:void(0);" class="list-group-item">
+                                              <div class="media">
+                                                 <div class="pull-left p-r-10">
+                                                    <em class="fa fa-diamond noti-primary"></em>
+                                                 </div>
+                                                 <div class="media-body">
+                                                    <h5 class="media-heading">عنوان اطلاعیه</h5>
+                                                    <p class="m-0">
+                                                        <small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...</small>
+                                                    </p>
+                                                 </div>
+                                              </div>
+                                           </a>
+
+                                           <!-- list item-->
+                                           <a href="javascript:void(0);" class="list-group-item">
+                                              <div class="media">
+                                                 <div class="pull-left p-r-10">
+                                                    <em class="fa fa-cog noti-warning"></em>
+                                                 </div>
+                                                 <div class="media-body">
+                                                    <h5 class="media-heading">عنوان اطلاعیه</h5>
+                                                    <p class="m-0">
+                                                        <small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...</small>
+                                                    </p>
+                                                 </div>
+                                              </div>
+                                           </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="list-group-item text-right">
+                                                <small class="font-600">مشاهده تمام اطلاعیه ها</small>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="hidden-xs">
+                                    <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="icon-size-fullscreen"></i></a>
+                                </li>
+                                <li class="hidden-xs">
+                                    <a href="#" class="right-bar-toggle waves-effect waves-light"><i class="icon-settings"></i></a>
+                                </li>
+                                <li class="dropdown top-menu-item-xs">
+                                    <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)"><i class="ti-user m-r-10 text-custom"></i> پروفایل</a></li>
+                                        <li><a href="javascript:void(0)"><i class="ti-settings m-r-10 text-custom"></i> تنظیمات</a></li>
+                                        <li><a href="javascript:void(0)"><i class="ti-lock m-r-10 text-custom"></i> قفل صفحه</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="javascript:void(0)"><i class="ti-power-off m-r-10 text-danger"></i> خروج</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+
+
+            <!-- ========== Left Sidebar Start ========== -->
+
+            <div class="left side-menu">
+                <div class="sidebar-inner slimscrollleft">
+                    <!--- Divider -->
+                    <div id="sidebar-menu">
+                        <ul>
+
+                        	<li class="text-muted menu-title">اصلی</li>
+
+                            <li class="has_sub">
+                                <a href="index.html" class="waves-effect"><i class="ti-home"></i> <span> داشبورد </span> <span class="menu-arrow"></span></a>
+                            </li>
+							
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-paint-bucket"></i> <span> کیت UI  </span> <span class="menu-arrow"></span> </a>
+                                <ul class="list-unstyled">
+                                    <li><a href="ui-buttons.html">دکمه ها</a></li>
+                                    <li><a href="ui-panels.html">پنل ها</a></li>
+                                    <li><a href="ui-portlets.html">پورتلت</a></li>
+                                    <li><a href="ui-checkbox-radio.html">چک باکس</a></li>
+                                    <li><a href="ui-tabs.html">تب ها</a></li>
+                                    <li><a href="ui-modals.html">مودال ها</a></li>
+                                    <li><a href="ui-progressbars.html">پروگرس بار</a></li>
+                                    <li><a href="ui-notification.html">اطلاعیه ها</a></li>
+                                    <li><a href="ui-images.html">تصاویر</a></li>
+                                    <li><a href="ui-bootstrap.html">رابط بوت استرپ</a></li>
+                                    <li><a href="ui-typography.html">تایپوگرافی</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-light-bulb"></i><span class="label label-primary pull-right">5</span><span> اجزا </span> </a>
+                                <ul class="list-unstyled">
+                                    <li><a href="components-widgets.html">ویدجت ها</a></li>
+                                    <li><a href="components-range-sliders.html">نوار لغزنده</a></li>
+                                    <li><a href="components-masonry.html">پنل ها</a></li>
+                                    <li><a href="components-sweet-alert.html">هشدارها</a></li>
+                                    <li><a href="components-treeview.html">نمای درختی</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-spray"></i> <span> ایکون ها </span> <span class="menu-arrow"></span> </a>
+                                <ul class="list-unstyled">
+                                	<li><a href="icons-glyphicons.html">Glyphicons</a></li>
+                                    <li><a href="icons-materialdesign.html">Material Design</a></li>
+                                    <li><a href="icons-fontawesome.html">Font awesome</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-pencil-alt"></i><span> فرم ها </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="form-elements.html">المان های عمومی</a></li>
+                                    <li><a href="form-advanced.html">فرم پیشرفته</a></li>
+                                    <li><a href="form-validation.html">اعتبار سنجی فرم</a></li>
+                                    <li><a href="form-pickers.html">فرم انتخاب کننده</a></li>
+                                    <li><a href="form-wizard.html">فرم ویزارد</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-menu-alt"></i><span>جدول ها </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="tables-basic.html">انواع جدول</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-bar-chart"></i><span class="label label-pink pull-right">2</span><span> نمودارها </span></a>
+                                <ul class="list-unstyled">
+                                	<li><a href="chart-flot.html">نمودار بزرگ</a></li>
+                                    <li><a href="chart-morris.html">نمودار موریس</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-location-pin"></i><span> نقشه ها </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="map-google.html"> نقشه گوگل</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="text-muted menu-title">بیشتـر</li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-files"></i><span> صفحات </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="page-login.html">ورود</a></li>
+                                    <li><a href="page-login-v2.html">ورود 2</a></li>
+                                    <li><a href="page-register.html">عضویت</a></li>
+                                    <li><a href="page-register-v2.html">عضویت 2</a></li>
+                                    <li><a href="page-signup-signin.html">ورود و عضویت</a></li>
+                                    <li><a href="page-recoverpw.html">بازیابی پسورد</a></li>
+                                    <li><a href="page-lock-screen.html">قفل صفحه</a></li>
+                                    <li><a href="page-400.html">ارور 400</a></li>
+                                    <li><a href="page-403.html">ارور 403</a></li>
+                                    <li><a href="page-404.html">ارور 404</a></li>
+                                    <li><a href="page-404_alt.html">ارور 404 ال</a></li>
+                                    <li><a href="page-500.html">ارور 500</a></li>
+                                    <li><a href="page-503.html">ارور 503</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-gift"></i><span> افزودنی ها </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="extra-profile.html">پروفایل</a></li>
+                                    <li><a href="extra-timeline.html">گاهشمار</a></li>
+                                    <li><a href="extra-invoice.html">فاکتور</a></li>
+                                    <li><a href="extra-email-template.html">قالب ایمیل</a></li>
+                                    <li><a href="extra-maintenance.html">حالت تعمیر</a></li>
+                                    <li><a href="extra-coming-soon.html">صفحه بزودی</a></li>
+                                    <li><a href="extra-faq.html">سوالات متداول</a></li>
+                                    <li><a href="extra-gallery.html">گالری</a></li>
+                                    <li><a href="extra-pricing.html">تعرفه ها</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-email"></i><span> ایمیل </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="email-inbox.html"> صندوق ورودی</a></li>
+                                    <li><a href="email-read.html"> خواندن میل</a></li>
+                                    <li><a href="email-compose.html"> ارسال میل</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-share"></i><span>چند مرحله ای </span> <span class="menu-arrow"></span></a>
+                                <ul>
+                                    <li class="has_sub">
+                                        <a href="javascript:void(0);" class="waves-effect"><span>منو 1 </span>  <span class="menu-arrow"></span></a>
+                                        <ul style="">
+                                            <li><a href="javascript:void(0);"><span>زیر منو 1</span></a></li>
+                                            <li><a href="javascript:void(0);"><span>زیر منو 3</span></a></li>
+                                            <li><a href="javascript:void(0);"><span>زیر منو 3</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);"><span>منو 2</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="text-muted menu-title">افزودنی ها</li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-user"></i><span> مدیریت مشتری </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="crm-dashboard.html"> داشبورد </a></li>
+                                    <li><a href="crm-opportunities.html"> فرصت ها </a></li>
+                                    <li><a href="crm-customers.html"> مشتریان </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="ti-shopping-cart"></i><span class="label label-warning pull-right">6</span><span> فروشگاه </span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="ecommerce-dashboard.html"> داشبورد</a></li>
+                                    <li><a href="ecommerce-products.html"> محصولات</a></li>
+                                    <li><a href="ecommerce-product-detail.html"> جزئیات محصول</a></li>
+                                    <li><a href="ecommerce-product-edit.html"> ویرایش محصولات</a></li>
+                                    <li><a href="ecommerce-orders.html"> سفارشات</a></li>
+                                    <li><a href="ecommerce-sellers.html"> فروشندگان</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- Left Sidebar End -->
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->                      
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+
+                        <!-- Page-Title -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="btn-group pull-right m-t-15">
+                                    <button type="button" class="btn btn-default dropdown-toggle waves-effect" data-toggle="dropdown" aria-expanded="false">تنظیمات <span class="m-l-5"><i class="fa fa-cog"></i></span></button>
+                                    <ul class="dropdown-menu drop-menu-right" role="menu">
+                                        <li><a href="#">ایتم 1</a></li>
+                                        <li><a href="#">ایتم 2</a></li>
+                                        <li><a href="#">ایتم 3</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">ایتم 4</a></li>
+                                    </ul>
+                                </div>
+
+
+								<h4 class="page-title">المنت های بوت استرپ</h4>
+								<ol class="breadcrumb">
+									<li>
+										<a href="#">نادیا</a>
+									</li>
+									<li>
+										<a href="#">کیت UI</a>
+									</li>
+									<li class="active">
+										رابط بوت استرپ
+									</li>
+								</ol>
+							</div>
+						</div>
+
+                        <div class="row">
+                        	<div class="col-sm-12">
+                        		<div class="card-box">
+                        			<div class="row">
+                        				
+                        				<!-- Popovers -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>راهنما</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+												پنل های کوچ و دارای متن برای راهنمای المنت ها
+											</p>
+											
+											<div class="button-list">
+												<button type="button" class="btn btn-default" data-container="body" title="" data-toggle="popover" data-placement="top" data-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است." data-original-title="">
+													راهنما در بالا
+												</button>
+
+												<button type="button" class="btn btn-default" data-container="body" title="" data-toggle="popover" data-placement="bottom" data-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+												" data-original-title="">
+													راهنما در پایین
+												</button>
+
+												<button type="button" class="btn btn-default" data-container="body" title="" data-toggle="popover" data-placement="right" data-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است." data-original-title="">
+													راهنما در راست
+												</button>
+
+												<button type="button" class="btn btn-default" data-container="body" title="" data-toggle="popover" data-placement="left" data-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است." data-original-title="راهنما در چپ">
+													راهنما در چپ
+												</button>
+
+												<button tabindex="0" class="btn btn-default" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است." data-original-title="راهنمای عمودی">
+													راهنما بصورت عمودی
+												</button>
+											</div>
+                        				</div>
+                        				<!-- end col -->
+                        				
+                        				
+                        				<!-- Tooltips -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>تول تیپس</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+											</p>
+											
+											<div class="button-list">
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="تول تیپس در چپ">تول تیپس در چپ</button>
+
+                                            	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="" data-original-title="تول تیپس در بالا">تول تیپس در بالا</button>
+                                            
+                                            	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="تول تیپ در پایین">تول تیپ در پایین</button>
+                                            
+                                            	<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="" data-original-title="تول تیپس در راست">تول تیپس در راست</button>
+											</div>
+                        				</div>
+                        				<!-- end col -->
+                        				
+                        			</div> <!-- end row -->
+                        		</div> <!-- end card-box -->
+                        	</div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        
+                        
+                        <div class="row">
+                        	<div class="col-sm-12">
+                        		<div class="card-box">
+                        			<div class="row">
+                        				
+                        				<!-- Labels -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>برچسب ها</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+											</p>
+											
+											<div class="">
+												<span class="label label-default">پیشفرض</span>
+	                                            <span class="label label-primary">ابی</span>
+	                                            <span class="label label-success">موفق</span>
+	                                            <span class="label label-info">اطلاع</span>
+	                                            <span class="label label-warning">هشدار</span>
+	                                            <span class="label label-danger">خطا</span>
+	                                            <span class="label label-purple">بنفش</span>
+	                                            <span class="label label-inverse">خاکستری</span>
+	                                            <span class="label label-pink">صورتی</span>
+											</div>
+                        				</div>
+                        				<!-- end col -->
+                        				
+                        				
+                        				<!-- Badge -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>نشان ها</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+											</p>
+											
+											<div class="">
+												<span class="badge badge-primary">15</span>
+												<span class="badge badge-success">0</span>
+												<span class="badge badge-info">21</span>
+												<span class="badge badge-inverse">3</span>
+												<span class="badge badge-warning">35</span>
+												<span class="badge badge-danger">32</span>
+												<span class="badge badge-purple">51</span>
+												<span class="badge badge-pink">77</span>
+												<span class="badge">9</span>
+											</div>
+                        				</div>
+                        				<!-- end col -->
+                        				
+                        			</div> <!-- end row -->
+                        		</div> <!-- end card-box -->
+                        	</div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        
+                        
+                        <div class="row">
+                        	<div class="col-sm-12">
+                        		<div class="card-box">
+                        			<div class="row">
+                        				
+                        				<!-- Standard Alert -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>هشدارهای استاندارد</b></h4>
+                        					<p class="text-muted m-b-30 font-13 m-h-40">
+											</p>
+											
+											<div class="alert alert-success">
+												<strong>عنوان</strong> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+											</div>
+											<div class="alert alert-info">
+												<strong>عنوان</strong> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+											</div>
+											<div class="alert alert-warning">
+												<strong>عنوان</strong> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+											</div>
+											<div class="alert alert-danger">
+												<strong>عنوان</strong> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+											</div>
+
+											<div class="alert alert-success fade in m-b-0">
+												<h4>هشدار بزرگ</h4>
+												<p>
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.												</p>
+												<p>
+													<button type="button" class="btn btn-default waves-effect waves-light">
+														بله
+													</button>
+													<button type="button" class="btn btn-white waves-effect">
+														خیر
+													</button>
+												</p>
+											</div>
+											
+                        				</div>
+                        				<!-- end col -Standard Alert -->
+
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>نمونه هشدار 2</b></h4>
+                        					<p class="text-muted m-b-30 font-13 m-h-40">
+											</p>
+
+											<div class="alert alert-success alert-dismissable">
+	                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+	                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. <a href="#" class="alert-link">لینک هشدار</a>.
+	                                        </div>
+	                                        <div class="alert alert-info alert-dismissable">
+	                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+	                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. <a href="#" class="alert-link">لینک هشدار</a>.
+	                                        </div>
+	                                        <div class="alert alert-warning alert-dismissable">
+	                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+	                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. <a href="#" class="alert-link">لینک هشدار</a>.
+	                                        </div>
+	                                        <div class="alert alert-danger alert-dismissable">
+	                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+	                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. <a href="#" class="alert-link">لینک هشدار</a>.
+	                                        </div>
+
+	                                        <div class="alert alert-info fade in m-b-0">
+	                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+	                                            <h4>هشدار بزرگ</h4>
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.												</p>
+	                                            <p>
+	                                              <button type="button" class="btn btn-info waves-effect waves-light">بله</button>
+	                                              <button type="button" class="btn btn-white waves-effect">خیر</button>
+	                                            </p>
+	                                        </div>
+                        				</div>	
+                        			
+                        			</div>
+                        		</div>
+                        	</div>
+                        </div>
+                        <!-- End row -->
+
+
+                        <div class="row">
+                        	<div class="col-sm-12">
+                        		<div class="card-box">
+                        			<div class="row">
+
+                        				<!-- Pagination -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>صفحه گذاری</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+											</p>
+
+											<div>
+												<h5 class="m-b-5"><b>صفحه گذاری پیشفرض</b></h5>
+												<p class="text-muted font-13">
+												</p>
+												<ul class="pagination">
+													<li class="disabled">
+														<a href="#"><i class="fa fa-angle-left"></i></a>
+													</li>
+													<li>
+														<a href="#">1</a>
+													</li>
+													<li class="active">
+														<a href="#">2</a>
+													</li>
+													<li>
+														<a href="#">3</a>
+													</li>
+													<li>
+														<a href="#">4</a>
+													</li>
+													<li>
+														<a href="#">5</a>
+													</li>
+													<li>
+														<a href="#"><i class="fa fa-angle-right"></i></a>
+													</li>
+												</ul>
+
+												<div class="m-b-5"></div>
+
+												<h5 class="m-b-5"><b>نمونه 2 </b></h5>
+												<p class="text-muted font-13">
+													استفاده از کلاس <code>
+														.pagination-split</code>
+												</p>
+												<ul class="pagination pagination-split">
+													<li class="disabled">
+														<a href="#"><i class="fa fa-angle-left"></i></a>
+													</li>
+													<li>
+														<a href="#">1</a>
+													</li>
+													<li class="active">
+														<a href="#">2</a>
+													</li>
+													<li>
+														<a href="#">3</a>
+													</li>
+													<li>
+														<a href="#">4</a>
+													</li>
+													<li>
+														<a href="#">5</a>
+													</li>
+													<li>
+														<a href="#"><i class="fa fa-angle-right"></i></a>
+													</li>
+												</ul>
+
+												<div class="m-b-5"></div>
+
+												<h5 class="m-b-5"><b>اندازه بزرگ</b></h5>
+												<p class="text-muted font-13">
+													افزودن <code>
+														.pagination-lg</code>
+													یا <code>
+														.pagination-sm</code>
+													برای اندازه های مختلف
+												</p>
+												<ul class="pagination pagination-lg m-b-0">
+													<li class="disabled">
+														<a href="#"><i class="fa fa-angle-left"></i></a>
+													</li>
+													<li>
+														<a href="#">1</a>
+													</li>
+													<li class="active">
+														<a href="#">2</a>
+													</li>
+													<li>
+														<a href="#">3</a>
+													</li>
+													<li>
+														<a href="#">4</a>
+													</li>
+													<li>
+														<a href="#">5</a>
+													</li>
+													<li>
+														<a href="#"><i class="fa fa-angle-right"></i></a>
+													</li>
+												</ul>
+
+											</div>
+                        				</div>
+                        				<!-- end col -->
+
+                        				<!-- Pagers -->
+                        				<div class="col-md-6">
+                        					<h4 class="m-t-0 header-title"><b>پیجر</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+											</p>
+
+											<div>
+												<h5 class="m-b-5"><b>پیشفرض</b></h5>
+												<p class="text-muted font-13">
+												</p>
+												<ul class="pager">
+													<li>
+														<a href="#"><i class="fa fa-angle-left"></i> قبلی</a>
+													</li>
+													<li>
+														<a href="#">بعدی <i class="fa fa-angle-right"></i></a>
+													</li>
+												</ul>
+
+												<div class="clearfix m-b-20"></div>
+
+												<h5 class="m-b-5"><b>حالت 2</b></h5>
+												<p class="text-muted font-13">
+												</p>
+												<ul class="pager">
+													<li class="previous">
+														<a href="#">← قدیمی</a>
+													</li>
+													<li class="next">
+														<a href="#">جدید →</a>
+													</li>
+												</ul>
+
+												<div class="clearfix m-b-20"></div>
+
+												<h5 class="m-b-5">حالت غیر فعال</h5>
+												<p class="text-muted font-13">
+													 <code>
+														.disabled</code>
+													
+												</p>
+												<ul class="pager">
+													<li class="previous disabled">
+														<a href="#">← قدیمی</a>
+													</li>
+													<li class="next">
+														<a href="#">جدید →</a>
+													</li>
+												</ul>
+
+											</div>
+                        				</div>
+                        				<!-- end col -->
+
+
+                        			</div>
+                        		</div>
+                        	</div>
+                        </div>
+                        <!-- End row -->
+                        
+                        
+                        <!-- List Groups -->
+                        <div class="row">
+                            <div class="col-md-12">
+                            	<div class="card-box">
+                            		<div class="row">
+                            			<div class="col-md-6">
+                            				<h4 class="m-t-0 header-title"><b>نمونه لیست گوهی</b></h4>
+                            				<p class="text-muted m-b-30 font-13">
+											</p>
+											
+											<ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <span class="badge badge-primary">14</span>
+                                                    عنوان ایتم
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge badge-purple">2</span>
+                                                    عنوان ایتم
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge badge-pink">9</span>
+                                                    عنوان ایتم
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge badge-inverse">7</span>
+                                                    عنوان ایتم
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <span class="badge badge-success">1</span>
+                                                    Morbi leo risus
+                                                </li>
+                                            </ul>
+                            			</div>
+                            			<!-- end col -->
+                            			
+                            			<div class="col-md-6">
+                            				<h4 class="m-t-0 header-title"><b>لیست گروهی دارای لینک</b></h4>
+                            				<p class="text-muted m-b-30 font-13">
+
+											</p>
+											
+											<div class="list-group">
+                                                <a href="#" class="list-group-item active">
+                                                  عنوان ایتم
+                                                </a>
+                                                <a href="#" class="list-group-item">  عنوان ایتم</a>
+                                                <a href="#" class="list-group-item">  عنوان ایتم</a>
+                                                <a href="#" class="list-group-item disabled">  عنوان ایتم</a>
+                                                <a href="#" class="list-group-item">  عنوان ایتم</a>
+                                            </div> <!-- list-group -->
+                            			</div>
+                            			<!-- end col -->
+                            			
+                            		</div>
+                            		<!-- end row -->
+                            	</div> <!-- end card-box -->
+                            </div> <!-- end col -->
+                        </div> 
+                        <!-- end Row -->
+                        
+                        
+                        
+                        <!-- List Group with Description -->
+                        <div class="row">
+                            <div class="col-sm-12"> 
+                            	<div class="card-box">
+                            		<h4 class="m-t-0 header-title"><b>لیست گروهی به همراه توضیحات</b></h4>
+                            		<p class="text-muted m-b-30 font-13">
+									</p>
+									
+									<div class="list-group m-b-0">
+                                        <a href="#" class="list-group-item active"> 
+                                            <h4 class="list-group-item-heading">عنوان</h4> 
+                                            <p class="list-group-item-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p> 
+                                        </a> 
+                                        <a href="#" class="list-group-item disabled"> 
+                                            <h4 class="list-group-item-heading">عنوان</h4> 
+                                            <p class="list-group-item-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p> 
+                                        </a> 
+                                        <a href="#" class="list-group-item"> 
+                                            <h4 class="list-group-item-heading">عنوان</h4> 
+                                            <p class="list-group-item-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p> 
+                                        </a> 
+                                    </div> <!-- list-group -->
+                            	</div>
+                            </div>
+                        </div>
+                        <!-- End row -->
+
+                      </div> <!-- container -->
+                                
+                   </div> <!-- content -->
+
+                <footer class="footer">
+                    © 1396. تمام حقوق محفوظ است
+                </footer>
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+            <!-- Right Sidebar -->
+            <div class="side-bar right-bar nicescroll">
+                <h4 class="text-center">چت</h4>
+                <div class="contact-list nicescroll">
+                    <ul class="list-group contacts-list">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-1.jpg" alt="">
+                                </div>
+                                <span class="name">چانجل</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-2.jpg" alt="">
+                                </div>
+                                <span class="name">توماس</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-3.jpg" alt="">
+                                </div>
+                                <span class="name">دیوید</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="">
+                                </div>
+                                <span class="name">کارتینا</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-5.jpg" alt="">
+                                </div>
+                                <span class="name">شادا</span>
+                                <i class="fa fa-circle away"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-6.jpg" alt="">
+                                </div>
+                                <span class="name">ادیمنه</span>
+                                <i class="fa fa-circle away"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-7.jpg" alt="">
+                                </div>
+                                <span class="name">اوکا</span>
+                                <i class="fa fa-circle away"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-8.jpg" alt="">
+                                </div>
+                                <span class="name">دانا</span>
+                                <i class="fa fa-circle offline"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-9.jpg" alt="">
+                                </div>
+                                <span class="name">جان</span>
+                                <i class="fa fa-circle offline"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-10.jpg" alt="">
+                                </div>
+                                <span class="name">سورتو</span>
+                                <i class="fa fa-circle offline"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+            <!-- /Right-
+
+
+        </div>
+        <!-- END wrapper -->
+    
+        <script>
+            var resizefunc = [];
+        </script>
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap-rtl.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+	
+	</body>
+</html>
